@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+/* Reset CSS*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Características do corpo da página*/
+body {
+    height: 100vh; /* Define o tamanho utilizável da tela */
+    box-sizing: border-box;
+    background-color: black;
+    color: #ee3a03;
+}
+
+/* Alinhamento dos itens filho*/
+.apresentacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10% 20%;
+}
+
+/*Largura da apresentacao */
+.apresentacao__conteudo{
+    width: 650px;
+    display: flex;
+    flex-direction: column; /*posiciona os itens em colunas*/
+    gap: 10px; /*define o espacamento entre os itens*/
+}
+
+/*Caracteristicas do titulo*/
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+/*Caracteristicas do paragrafo*/
+.destaque1{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+/*caracteristica do texto*/
+.texto{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/**/
+.apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.apresentacao__conteudo__subtitulo{
+    font-size: 24px;
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+
+}
+
+/*caracteristicas do botao*/
+.apresentacao__links__link{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid #ee1602;
+    width: 378px;
+    text-align: center;
+    border-radius: 8px; /*raio da borda*/
+    font-size: 18px;
+    font-weight: 400; /*espessura da letra*/
+    padding: 25.5px 0; /*tamanho do padding*/
+    text-decoration: none;
+    color:#1b6bff;
+    font-family: 'Montserrat', sans-serif;
+    border: 4px solid #ee1602; /*cria a borda ao redor do nome*/
+}
+
+.apresentacao__links__link:hover{
+    background-color: #272727;
+}
+
+
+
